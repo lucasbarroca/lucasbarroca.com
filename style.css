@@ -1,12 +1,16 @@
 * {
   box-sizing: border-box;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue",  Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue", Arial, sans-serif;
   margin: auto;
 }
 
+.skills {
+  text-align: center;
+}
+
 .icon {
-  height: 26px;
-  margin-right: 8px;	
+  height: 36px;
+  margin-right: 8px;
 }
 
 .bg-image {
@@ -56,7 +60,7 @@
   font-style: normal;
 }
 
-.header > h1 {
+.header>h1 {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -67,8 +71,8 @@
   color: #ffffff;
 }
 
-.header > p,
-.learn-more > p {
+.header>p,
+.learn-more>p {
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -84,7 +88,7 @@
   flex-direction: row;
 }
 
-.options > a {
+.options>a {
   color: #ffffff;
   text-decoration: underline;
   margin: 0px 8px;
@@ -93,7 +97,7 @@
   line-height: 150%;
 }
 
-.options > a:first-of-type {
+.options>a:first-of-type {
   margin-right: 30px;
 }
 
@@ -101,19 +105,19 @@
   margin-top: 75px;
 }
 
-.logo > img {
+.logo>img {
   width: 160px;
   height: 64px;
 }
 
-.learn-more > a {
-  background: #000;
-  border-radius: 0px;
+.learn-more>a {
+  background: #21b93f;
+  color: #fff;
+  border-radius: 10px;
   border: none;
   width: 180px;
   margin-top: 78px;
   height: 55px;
-  color: #ffffff;
   text-align: center;
   font-weight: 600;
   font-size: 18px;
@@ -125,38 +129,39 @@
   align-items: center;
 }
 
-.learn-more > a span {
+.learn-more>a span {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .learn-more a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .learn-more a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
-.learn-more > a:hover {
+.learn-more>a:hover {
   background: #075E54;
   text-decoration: none;
 }
 
 @media screen and (max-width: 1024px) {
-    .container {
-        background-size: contain;
-        background-position-y: center;
-    }
+  .container {
+    background-size: contain;
+    background-position-y: center;
+  }
 }
 
 @media screen and (max-width: 600px) {
 
-.container{
+  .container {
     background-size: contain;
     background-position-y: center;
-    }
+  }
+
   pre {
     font-size: 0.8rem;
     padding: 8px 12px;
