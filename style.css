@@ -42,8 +42,8 @@
   background-size: 600px;
 }
 
-.header h3,
-.learn-more h3 {
+.header h2,
+.learn-more h2 {
   text-align: center;
   color: #fff;
   font-size: 22px;
@@ -53,11 +53,11 @@
   line-height: 36px;
 }
 
-.header h3 {
+.header h2 {
   margin-bottom: 30px;
 }
 
-.learn-more h3 {
+.learn-more h2 {
   font-weight: 600;
 }
 
@@ -68,6 +68,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: center;
   padding: 0px;
   font-style: normal;
 }
@@ -123,7 +124,7 @@
 }
 
 .learn-more>a {
-  background: #21b93f;
+  background: #075e54;
   color: #fff;
   border-radius: 10px;
   border: none;
